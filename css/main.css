@@ -1269,6 +1269,8 @@ header .header-logo a {
   width: 100px;
   height: 50px;
   background: url("../images/eleven-international-logo.svg") no-repeat center;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
   background-size: 100px 50px;
   font: 0/0 a;
   text-shadow: none;
