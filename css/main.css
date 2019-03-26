@@ -1268,12 +1268,8 @@ header .header-logo a {
   border: none;
   width: 100px;
   height: 50px;
-  background: url("../images/eleven-international-logo.svg");
- background-repeat: no-repeat;
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
+  background: url("../images/eleven-international-logo.svg") no-repeat center;
+  background-size: 100px 50px;
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
@@ -1521,14 +1517,15 @@ header .header-logo a {
   background-color: #151515;
   background-image: url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
-  background-position: center 30%;
+  background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  background-attachment: fixed;
   min-height: 804px;
   position: relative;
+
 }
+
 #home .overlay {
   position: absolute;
   top: 0;
