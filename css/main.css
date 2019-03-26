@@ -1268,10 +1268,12 @@ header .header-logo a {
   border: none;
   width: 100px;
   height: 50px;
-  background: url("../images/eleven-international-logo.svg") no-repeat center;
-   -webkit-background-size: cover;
+  background: url("../images/eleven-international-logo.svg");
+ background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: 100px 50px;
+  background-size: cover;
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
