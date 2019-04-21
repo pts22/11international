@@ -111,7 +111,7 @@
 	    	responsiveClass:true,
 	    	responsive: {
 	         0:{
-	            items:2,
+	            items:1,
 	            margin: 20
 	         },
 	         400:{
@@ -123,7 +123,7 @@
 	            margin: 40
 	         },
 	         1000:{
-	            items:5,
+	            items:6,
               margin: 60
 	         }
 	    	}

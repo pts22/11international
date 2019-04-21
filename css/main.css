@@ -1517,14 +1517,15 @@ header .header-logo a {
   background-color: #151515;
   background-image: url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
-  background-position: center 30%;
+  background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  background-attachment: fixed;
   min-height: 804px;
   position: relative;
+
 }
+
 #home .overlay {
   position: absolute;
   top: 0;
@@ -2070,7 +2071,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 .bricks-wrapper .item-wrap .overlay::before {
   content: "";
   display: block;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.9);
   opacity: 0;
   visibility: hidden;
   position: absolute;
@@ -2086,7 +2087,6 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   z-index: 1;
 }
 .bricks-wrapper .item-wrap .overlay::after {
-  content: "...";
   font-family: georgia, serif;
   font-size: 3rem;
   z-index: 1;
@@ -2112,6 +2112,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   -ms-transform: scale(0.5);
   transform: scale(0.5);
 }
+
 .bricks-wrapper .item-wrap .item-text {
   position: absolute;
   top: 0;
@@ -2134,6 +2135,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: rgba(255, 255, 255, 0.7);
   display: block;
 }
+
+.bricks-wrapper .item-wrap .item-text .folio-paragraph {
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  line-height: 2.364;
+}
+
 .bricks-wrapper .item-wrap .details-link {
   display: block;
   background-color: transparent;
@@ -2228,7 +2236,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   font-size: 1.3rem;
   line-height: 2.4rem;
   margin: .6rem 0 0;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 1);
 }
 
 .lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover {
@@ -2283,6 +2291,16 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   letter-spacing: .3rem;
   position: relative;
   margin-bottom: 4.2rem;
+}
+
+#testimonials p {
+
+  line-height: 1.667;
+  color: black
+  letter-spacing: .3rem;
+  position: relative;
+  margin-bottom: 4.2rem;
+  padding: 0 50px;
 }
 
 #testimonials .flex-container {
@@ -2514,7 +2532,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  * ------------------------------------------------------------------- */
 #contact {
   background-color: #111111;
-  background-image: url(../images/contact-bg.jpg);
+  background-image: url(../images/Eleven-International-Contact-Us.png);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -3030,6 +3048,22 @@ color:rgba(255,255,255,0.6);
 }
 
 .contactbutton {
-  margin-top:80px;
+    background: transparent;
+    border: 3px solid white;
+    line-height: 4.8rem;
+    color:white;
+    text-transform: uppercase;
+    font-family: "montserrat-bold", sans-serif;
+    padding: 15px 25px;
+}
+
+.contactbutton:hover {
+    background: rgba(255,255,255,0.3);
+    border: 3px solid white;
+    line-height: 4.8rem;
+    color:white;
+    text-transform: uppercase;
+    font-family: "montserrat-bold", sans-serif;
+    padding: 15px 25px;
 }
 
